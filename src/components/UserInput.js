@@ -17,13 +17,13 @@ class UserInput extends Component {
     return(
       <div>
         <form onSubmit={this.handleSubmit}>
-          <input type="text" 
-            name="username" 
-            onChange={this.handleChange} 
+          <input type="text"
+            name="username"
+            onChange={this.handleChange}
             value={this.state.username} />
-          <input type="text" 
-            name="hometown" 
-            onChange={this.handleChange} 
+          <input type="text"
+            name="hometown"
+            onChange={this.handleChange}
             value={this.state.hometown} />
           <input type="submit" />
         </form>
